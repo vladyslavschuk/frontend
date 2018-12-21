@@ -28,8 +28,8 @@ p.border {
 h3 {
     text-align: center;
 }
-form {
+.form {
+    background: lawngreen;
     text-align: center;
-    box-sizing: 1000px;
     
 }
