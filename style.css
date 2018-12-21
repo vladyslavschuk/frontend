@@ -6,10 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
-.html {
+html {
     background-image: url('https://banner2.kisspng.com/20180305/cpe/kisspng-grey-pattern-continental-light-gray-background-shading-5a9cfd9b941b12.9390720115202379796067.jpg')
 }
-.h1 {
+h1 {
     color: #d2d2d2;
     font-size: 60px;
     text-align: center;
@@ -25,10 +25,10 @@ p.border {
     border-left: 3px solid red;
     padding: 15px;
 }
-.h3 {
+h3 {
     text-align: center;
 }
-.form {
+form {
     text-align: center;
     box-sizing: 1000px;
     
