@@ -22,29 +22,25 @@
     max-width: 1041px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     color: #FFFFFF;
     margin: 0 auto;
+    padding: 30px;
 }
 .logo {
-    width: 179px;
     height: 43px;
-    margin-top: 30px;
 }
 .text-logo {
     width: 149px;
-    margin-top: 40px;
     margin-left: 22px;
     font-size: 16px;
 }
 .telephon-header {
-    margin-top: 34px;
     margin-left: 178px;
     font-size: 30px;
 }
 .call-header {
-    margin-top: 42px;
     margin-left: 26px;
     font-size: 16px;
 }
@@ -62,21 +58,14 @@
     text-decoration: none;
     border-bottom: 1px dashed #FFFFFF;
 }
-.facebook-header {
-    margin-top: 36px;
-    margin-left: 47px;
-}
-.google-header {
-    margin-top: 36px;
-    margin-left: 10px; 
-}
-.instagram-header {
-    margin-top: 36px;
+.social-networks {
     margin-left: 10px;
+}
+.social-networks:first-child {
+    margin-left: 47px;
 }
 p {
     margin: 0;
-    font-size: 14px;
 }
 .big-banner-box {
     margin-bottom: 51px;
@@ -143,8 +132,9 @@ p {
 .hotel {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: baseline;
-    
+    margin-bottom: 32px;    
 }
 .block-box {
     display: flex;
@@ -168,7 +158,6 @@ p {
 }
 .right-box {
     position: absolute;
-    height: 158px;
     width: 168px;
     display: flex;
     flex-direction: column;
@@ -179,12 +168,13 @@ p {
     font-size: 35px;
     font-weight: bold;
     border-bottom: 1px solid #000000;
-    margin-bottom: 32px;
 }
 .rating {
     height: 26px;
     width: 146px;
     margin-left: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .price {
     font-size: 35px;
@@ -224,6 +214,8 @@ p {
 }
 .line-p {
     font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 .line-bottom-p {
     font-size: 18px;
@@ -244,16 +236,6 @@ p {
     flex-direction: column;
 }
 .sentence-one-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-}
-.sentence-two {
-    display: flex;
-    flex-direction: column;
-}
-.sentence-two-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -293,7 +275,7 @@ h1 {
 .text-left {
     width: 776px;
 }
-.p-text {
+.text-left p {
     margin-bottom: 1.5em;
     font-size: 14px;
 }
@@ -360,5 +342,6 @@ li:before {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 10px;
     
 }
