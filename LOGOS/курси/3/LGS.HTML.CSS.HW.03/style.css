@@ -4,6 +4,13 @@
     box-sizing: border-box;
     text-align: center;
 }
+.wrapper {
+    height: 643px;
+    width: 670px;
+    outline: 2px solid #000000;
+    margin: auto;
+    margin-top: 5px;
+}
 .container {
     width: 670px;
 }
@@ -189,6 +196,9 @@
     height: 134px;
     width: 74.3px;
     background-color: #ffdead;
+}
+.img {
+    margin: 24px; 
 }
 .block-content-3 {
     height: 300px;
