@@ -1,0 +1,34 @@
+#block {
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.box {
+    width: 100%;
+    height: 300px;
+    background-color: green;
+}
+@media screen and (max-width: 880px) {
+    #block {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        margin-bottom: 2%;
+    }
+    .box:last-child {
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 880px) {
+    #block {
+        display: flex;
+        flex-direction: row;
+    }
+    .box {
+        margin-right: 2%;
+    }
+    .box:last-child {
+        margin-right: 0;
+    }
+}

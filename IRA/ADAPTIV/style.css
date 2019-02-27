@@ -1,0 +1,91 @@
+* {
+}
+/*
+@media screen and (min-width: 480px) and (max-width: 800px) {
+    #block {
+        color: green;
+    }
+}
+@media screen (min-width: 800px) {
+    #block {
+        color: blue;
+    }
+}*/
+/*
+#wrapper {
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+}
+.block {
+    box-sizing: border-box;
+    background: green;
+    height: 300px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+@media screen and (min-width: 800px) {
+    .block {
+        width: 24%;
+    }
+    .block:not(:nth-child(4n)) {
+        margin-right: 1.333333%;
+    }
+    
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .block {
+        width: 49%;
+    }
+    .block:not(:nth-child(2n)) {
+        margin-right: 2%;
+    }
+    .block:not(:nth-child(2n)) {
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .block {
+        width: 100%;
+    }
+}
+.block {
+    background: green;
+    height: 300px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+}
+*/
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 480px) and (min-width: 800px) {
+    body {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 30px;
+    }
+}
+#wrapper {
+    border: 1px solid red;
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+#block {
+    border: 1px solid green;
+    width: 50vmax;
+    height: 200px;
+}
