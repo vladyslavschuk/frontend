@@ -1,0 +1,48 @@
+@import url(reset.css);
+     
+.icons{
+    width: 60%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    width: 59px;
+    height: 59px;
+    background-image: url(css-sprite-iconok2.png);
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+.twitter{
+    background-position: -59px 0;
+}
+.google-plus{
+    background-position: -118px 0;
+}
+.rss{
+    background-position: -177px 0;
+}
+.vk:hover{
+    background-position: 0 -59px;
+}
+.twitter:hover{
+    background-position: -59px -59px;
+}
+.google-plus:hover{
+    background-position: -118px -59px;
+}
+.rss:hover{
+    background-position: -177px -59px;
+}
+.mail{
+    width: 200px;
+    margin: 10px auto;
+}
+.fa-envelope{
+    font-size: 40px;
+}
+
+

@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+.container{
+    width: 80%;
+    min-height: 100vh;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    width: 22%;
+    height: 150px;
+    background-color: beige;
+    border: 1px solid black;
+}
+@media screen and (max-width: 768px){
+    .box{
+        width: 90%;
+        height: 220px;
+        background-color: coral;
+        margin: 2% 0;
+    }
+}
+@media screen and (max-width: 1024px){
+    .container{
+        width: 98%;
+    }
+    .box{
+        width: 44%;
+        height: 180px;
+        background-color: aqua;
+    }
+}
+
+/*
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .container{
+        width: 98%;
+    }
+    .box{
+        width: 44%;
+        height: 180px;
+        background-color: aqua;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .box{
+        width: 90%;
+        height: 220px;
+        background-color: coral;
+        margin: 2% 0;
+    }
+}
+*/
+
+
+
+

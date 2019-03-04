@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tahoma";
+}
+body {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.palmtree {
+    position: absolute;
+    top: 65px;
+    left: 212px;
+    opacity: 0.2;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    padding: 140px 0 15px 71px;
+    text-align: center;
+}
+.logo-img {
+    margin-bottom: 4px;
+}
+.contact {
+    color: white;
+    margin: 163px 87px 8px 0;
+}
+p {
+    color: white;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.box {
+    margin-left: 12px;
+} 
+.box2 {
+    text-align: center;
+}
+.box:first-child {
+    margin-left: 67px;
+}
+.block-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.block-box:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 55px;
+}
+.block-box:last-child {
+    margin-bottom: 173px;
+}
+.footer-text {
+    text-align: center;
+    margin-bottom: 31px;
+}
+.size-8px {
+    font-size: 8px;
+}
+.size-10px {
+    font-size: 10px;
+}
+.size-15px {
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+}

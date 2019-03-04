@@ -1,0 +1,45 @@
+.card {
+    width: 100px;
+}
+.card1 {
+    position: relative;
+}
+.card2 {
+    position: absolute;
+    left: 50px;
+}
+.card3 {
+    position: absolute;
+    left: 100px;
+}
+.card4 {
+    position: absolute;
+    left: 150px;
+}
+.card5 {
+    position: absolute;
+    left: 200px;
+}
+.card6 {
+    position: relative;
+}
+.card7 {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+.card8 {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+.card9 {
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+.card10 {
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}

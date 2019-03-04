@@ -1,0 +1,4 @@
+https://learn.javascript.ru/css-sprite
+https://fontawesome.com/
+https://www.flaticon.com/
+https://agente.ru/blog/adaptive-vs-responsive-web-design
