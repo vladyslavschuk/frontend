@@ -44,9 +44,11 @@ body {
     margin-right: 50px;
     text-decoration: none;
     color: white;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 .menu-p:hover {
-    background-image: url(img/link.png);
+    background: url(img/link.png);
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
 }
@@ -71,6 +73,9 @@ td a {
 }
 .table {
     border-collapse: collapse;
+}
+.table a {
+    color: #727070;
 }
 .image {
     display: flex;

@@ -120,24 +120,40 @@ em {
     outline: 2px solid black;
     margin: 30px 15px 0px 0px;
 }
+.button-block {
+    padding: 53px 40px 0 0;
+}
 .block-text-bottom-box1 {
     width: 300px;
-    margin: 53px 40px 0 0;
 }
 .block-text-bottom-box2 {
     width: 250px;
     margin-top: 30px;
 }
+.botton-service {
+    margin-top: 10px;
+}
 .button {
+    background: url(images/btn.png);
     position: relative;
     float: right;
-    margin: 10px 60px 0 0;
+    margin-right: 20px;
+    color: lightgray;
+    text-decoration: none;
+    padding: 6px 6.5px;
+    
 }
+.button:hover {
+    background: url(images/btn_hover.png);
+    background-repeat: no-repeat;
+}
+/*
 .button-text {
     position: absolute;
     bottom: 10px;
     left: 5px;
 }
+*/
 .signature {
     text-align: center;
     padding: 10px;
